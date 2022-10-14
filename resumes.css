@@ -1046,7 +1046,7 @@ dl, ol, ul {
   text-indent: -15px;
 }
 .resumeSix .listing li::before {
-  content: "â€¢ ";
+  content: "*";
   padding-right: 5px;
 }
 .resumeSix .top {
