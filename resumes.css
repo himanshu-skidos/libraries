@@ -1077,9 +1077,10 @@ dl, ol, ul {
 .resumeSeven__header {
   background-color: #e6e6e6;
   padding: 45px 45px 35px;
+  margin-bottom: 25px;
 }
 .resumeSeven__body {
-  padding: 45px 45px 0px;
+  padding: 10px 45px 5px 45px;
 }
 .resumeSeven__others {
   padding: 20px 45px 0px;
