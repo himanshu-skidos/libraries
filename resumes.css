@@ -843,7 +843,7 @@ dl, ol, ul {
   padding: 5px;
 }
 .resumeThree__top {
-  margin-top: 10px;
+  margin-top: 0;
 }
 .resumeThree__edit {
   padding: 0 7px;
@@ -1006,7 +1006,6 @@ dl, ol, ul {
 }
 .resumeSix--address {
   margin-top: 5px;
-  font-size: 13px;
 }
 .resumeSix--title {
   position: relative;
@@ -1054,7 +1053,7 @@ dl, ol, ul {
   margin-top: 20px;
 }
 .resumeSix--header {
-  font-size: 15px;
+  font-size: 16px;
 }
 .resumeSix--emp {
   color:#B8003A;
@@ -1077,10 +1076,9 @@ dl, ol, ul {
 .resumeSeven__header {
   background-color: #e6e6e6;
   padding: 45px 45px 35px;
-  margin-bottom: 25px;
 }
 .resumeSeven__body {
-  padding: 10px 45px 5px 45px;
+  padding: 45px 45px 0px;
 }
 .resumeSeven__others {
   padding: 20px 45px 0px;
