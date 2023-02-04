@@ -703,10 +703,14 @@ dl, ol, ul {
 /*  ===================================
     Resume 1
     =================================== */
+@page {
+     size: A4; /* Change from the default size of A4 */
+     margin: 0mm; /* Set margin on each page */
+}
 /*@page {
   @bottom-left {
     color: #fff;
-    content: 'â™¥ MyResumeFormat!'; 
+    content: 'CareerNewton'; 
     height: 0;
   }
   @bottom-right {
