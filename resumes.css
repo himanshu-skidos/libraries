@@ -11,7 +11,14 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 body { margin: 0; font-size: 13px; line-height: 1.45;}
-
+/* Resume fix for WeasyPrint 06-02-2023*/
+@page {
+    margin-top: 0mm;
+}
+@page :first {
+  margin-top:75px;
+}
+/* Resume fix for WeasyPrint 06-02-2023*/
 a {
     text-decoration: none;
 }
@@ -799,13 +806,7 @@ dl, ol, ul {
     Resume 3
     =================================== */
 .resumeThree {
-    margin: -30px;
-}
-.resumeThree.showBorder {
-    margin-top: -75px; 
-    margin-left: -75px;
-    margin-right: -75px;
-    margin-bottom: -75px;
+    margin: -75px -75px -75px -75px;
     padding: 40px 45px 0 45px;
     height: 297mm;
 }
@@ -1073,10 +1074,12 @@ dl, ol, ul {
 .resumeSeven {
   height: 287mm;
   margin: -80px;
+  padding-top: 45px;
 }
 .resumeSeven__header {
   background-color: #e6e6e6;
   padding: 45px 45px 35px;
+  margin-top: -45px;
 }
 .resumeSeven__body {
   padding: 45px 45px 0px;
@@ -1154,16 +1157,4 @@ dl, ol, ul {
   background-color: #000;
   width: 100%;
   height: 4px;
-}
-/* Resume fix for WeasyPrint 06-02-2023*/
-.preview__main {
-    margin: -75px -75px -75px -75px;
-    padding: 40px 45px 0 45px;
-    height: 297mm;
-}
-@page {
-  margin-top: 0mm;
-}
-@page :first {
-  margin-top:75px;
 }
