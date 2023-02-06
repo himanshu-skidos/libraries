@@ -10,13 +10,8 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-@page {
-        margin-top: 0mm;
-}
-@page :first {
-  margin-top:75px;
-}
 body { margin: 0; font-size: 13px; line-height: 1.45;}
+
 a {
     text-decoration: none;
 }
@@ -1159,4 +1154,16 @@ dl, ol, ul {
   background-color: #000;
   width: 100%;
   height: 4px;
+}
+/* Resume fix for WeasyPrint 06-02-2023*/
+@page {
+        margin-top: 0mm;
+}
+@page :first {
+  margin-top:75px;
+}
+.preview__main {
+    margin: -75px -75px -75px -75px;
+    padding: 40px 45px 0 45px;
+    height: 297mm;
 }
