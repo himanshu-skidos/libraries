@@ -535,16 +535,6 @@ dl, ol, ul {
   font-family: 'Tinos', serif;
   -webkit-font-smoothing: antialiased;
 }
-.font__Poppins,
-.font__Poppins h1,
-.font__Poppins h2,
-.font__Poppins h3,
-.font__Poppins h4,
-.font__Poppins h5,
-.font__Poppins h6 {
-  font-family: "Poppins", sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
 .vessel {
   margin-right: auto;
   margin-left: auto;
